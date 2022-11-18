@@ -1,6 +1,9 @@
 @import './common';
-@import './page-header.scss';
-@import './hero';
-@import './gallery';
-@import './sale';
-@import './page-footer.scss';
+
+
+
+@import './layouts/page-header';
+@import './layouts/hero';
+@import './layouts/gallery';
+@import './layouts/sale';
+@import './layouts/page-footer';
