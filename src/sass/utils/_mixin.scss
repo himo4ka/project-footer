@@ -23,12 +23,6 @@
     }
 }
 
-@mixin media($size) {
-    @media screen and (min-width: $size) {
-        @content;
-    }
-}
-
 @mixin retina {
 
     @media (min-device-pixel-ratio: 2),
