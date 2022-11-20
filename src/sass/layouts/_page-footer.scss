@@ -1,1 +1,24 @@
-
+.footer {
+  background: #001414;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #ffffff;
+}
+.footer-menu-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+}
+.footer-soc-link {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
