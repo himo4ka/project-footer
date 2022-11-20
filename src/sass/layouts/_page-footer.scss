@@ -27,6 +27,9 @@
   display: block;
   width: 117px;
   text-align: center;
+  @include tablet {
+    margin-right: 61px;
+  }
 }
 
 .footer-menu-list {
