@@ -32,6 +32,9 @@
   @include tablet {
     margin-right: 61px;
   }
+  @include desktop {
+    margin-right: 118px;
+  }
 }
 
 .footer-menu-list {
@@ -44,6 +47,9 @@
     margin-top: 0;
     margin-right: 89px;
     margin-bottom: 0;
+  }
+  @include desktop {
+    margin-right: 217px;
   }
 }
 
@@ -68,6 +74,10 @@
     gap: 16px;
     margin-top: 0;
     margin-right: 73px;
+  }
+  @include desktop {
+    margin-right: 281px;
+    flex-direction: column;
   }
 }
 
