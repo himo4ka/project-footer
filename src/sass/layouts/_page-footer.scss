@@ -2,12 +2,11 @@
   background: #001414;
   padding-top: 25px;
   padding-bottom: 24px;
-  padding-left: 16px;
-  padding-right: 32px;
+  // padding-left: 16px;
+  // padding-right: 32px;
 }
 
 .footer__container {
-  max-width: 432px;
   margin: 0 auto;
   @include tablet {
     display: flex;
@@ -16,7 +15,6 @@
 
 .footer-block {
   display: flex;
-  margin: 0 auto;
 }
 
 .footer-logo {
@@ -40,6 +38,7 @@
   flex-direction: column;
   @include tablet {
     margin-top: 0;
+    margin-right: 89px;
   }
 }
 
@@ -63,6 +62,7 @@
     flex-direction: row;
     gap: 16px;
     margin-top: 0;
+    margin-right: 73px;
   }
 }
 
